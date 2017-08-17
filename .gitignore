@@ -1,5 +1,9 @@
 target/
-!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+.DS_Store
+.gitattributes
+mvnw
+mvnw.cmd
 
 ### STS ###
 .apt_generated
