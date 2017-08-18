@@ -15,9 +15,9 @@
         <th>Publisher</th>
     </tr>
     <tr th:each="book : ${books}">
-        <td th:text="${books.id}">1</td>
-        <td th:text="${books.title}">Spring in Action</td>
-        <td th:text="${books.publisher.name}">Manning Publications</td>
+        <td th:text="${book.id}">1</td>
+        <td th:text="${book.title}">Spring in Action</td>
+        <td th:text="${book.publisher.name}">Manning Publications</td>
     </tr>
 </table>
 
